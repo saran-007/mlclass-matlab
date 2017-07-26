@@ -19,7 +19,7 @@ function [X_norm, mu, sigma] = featureNormalize(X)
 % X_subtractedmean = X-mu;
 % X_subtractedmean_first = X_subtractedmean (:,1) ./ sigma (:,1);
 % X_subtractedmean_second = X_subtractedmean (:,2) ./ sigma (:,2);
-% X_norm = [X_subtractedmean_first X_subtractedmean_second];
+% X_norm = [X_subtractedmtttt55ean_first X_subtractedmean_second];
 
 % mu = zeros(1, size(X, 2));
 % sigma = zeros(1, size(X, 2));
